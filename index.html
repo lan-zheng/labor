@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>劳动法知识大挑战</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>劳动法知识大挑战</h1>
+        <div id="welcome-screen">
+            <p>欢迎来到劳动法知识大挑战！准备好挑战 7 个关卡，测试你的劳动法知识吗？</p>
+            <button id="start-game">开始游戏</button>
+        </div>
+        <div id="game-screen" style="display: none;">
+            <div id="game-info">
+                <span id="level">关卡: 1</span>
+                <span id="score">得分: 0</span>
+                <span id="lives">生命值: 3</span>
+            </div>
+            <div id="question-container">
+                <p id="question"></p>
+                <div id="options"></div>
+            </div>
+            <div id="timer">剩余时间: 60秒</div>
+        </div>
+        <div id="game-over-screen" style="display: none;">
+            <h2>游戏结束</h2>
+            <p id="final-score"></p>
+            <button id="restart-game">重新开始</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
