@@ -83,8 +83,8 @@ const levels = [
                 correctAnswer: 0
             },
             {
-                question: "用人单位违法解除劳动合同的，应向劳动者支付多少个月工资的赔偿金？",
-                options: ["1个月", "2个月", "3个月", "6个月"],
+                question: "用人单位违法解除劳动合同的，应向劳动者支付n 的几倍工资的赔偿金？",
+                options: ["1倍", "2倍", "3倍", "4 倍"],
                 correctAnswer: 1
             }
         ]
