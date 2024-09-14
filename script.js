@@ -3,7 +3,7 @@ const levels = [
         name: "青铜试炼场",
         questions: [
             {
-                question: "劳动合同的最长期限是多少年？",
+                question: "固定期限的劳动合同的最长期限是多少年？",
                 options: ["3年", "5年", "10年", "无固定期限"],
                 correctAnswer: 2
             },
